@@ -187,8 +187,30 @@ strong {
     width: 100%;
     height: 100%;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 400px;
+}
+.extra5 {
+    width: 100%;
+    height: 150px;
+}
+.items {
+    background: #333;
+    text-align: center;
+    height: 300px;
+}
 
+.extra1 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-left: 300px;
+}
+
+.extra2 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-left: 600px;
 }
 
 .col-panda {
@@ -199,15 +221,23 @@ strong {
     text-align: center;
     padding: 30px;
     vertical-align: middle;
+
+}
+
+.col-panda .chip {
+    font-size: 20px;
 }
 .col-panda > h1 {
     font-weight: 300;
 }
-.col-panda img {
-    transition: all 0.3s ease;
-}
-.col-panda img:hover {
-    transform: scale(1.1);
+
+.col-leader{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+    text-align: left;
+    font-size: 20px;
 }
 /* Carousel */
 
@@ -779,6 +809,10 @@ h1.header {
 }
 .chip1 {
     font-size: 13px;
+}
+
+.chip3 {
+    font-size: 14px;
 }
 
 a.portfolio-link {
