@@ -11,18 +11,8 @@
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-        
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
-         <![endif]-->
-        
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
         <script src="js/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
@@ -35,104 +25,11 @@
         
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <span><a href="https://sites.pitt.edu/~sos86/index.html#"><img border="0" width="170" src="images/pitt.png"></a></span>
-                </div>
-                
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://sites.pitt.edu/~sos86/index.html#">
-                                Home<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$(&#39;#tab-intro-content&#39;).show();" href="https://sites.pitt.edu/~sos86/index.html#intro">Introduction</a></li>
-                                <li><a href="https://sites.pitt.edu/~sos86/bio.html">Biography</a></li>
-                                <li><a target="_blank" href="https://sites.pitt.edu/~sos86/cv.pdf">CV (PDF)</a></li>
-                            </ul>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$(&#39;#tab-news-content&#39;).show();" href="https://sites.pitt.edu/~sos86/index.html#awards">News</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://sites.pitt.edu/~sos86/index.html#">
-                                Projects<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$(&#39;#tab-projects-content&#39;).show();" href="https://sites.pitt.edu/~sos86/index.html#projects">Current</a></li>
-                                <li><a href="https://sites.pitt.edu/~sos86/projects.html">All</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://sites.pitt.edu/~sos86/index.html#">
-                                Publications<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$(&#39;#tab-publications-content&#39;).show();" href="https://sites.pitt.edu/~sos86/index.html#publications">Selected</a></li>
-                                <li><a href="https://sites.pitt.edu/~sos86/publications.html">All</a></li>
-                            </ul>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$(&#39;#tab-awards-content&#39;).show();" href="https://sites.pitt.edu/~sos86/index.html#awards">Awards</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="https://sites.pitt.edu/~sos86/experience.html">Experience</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="https://sites.pitt.edu/~sos86/talks/talks.html">Talks</a>
-                        </li>
-                        <!--
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
-                        </li>
-                        
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
-                        </li>
-                        -->
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$(&#39;#bs-example-navbar-collapse-2&#39;).toggle();">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-                
-                <!-- search box submenu -->
-                <div class="collapse" id="bs-example-navbar-collapse-2">
-                    <div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" aria-label="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Web</div><span class="gs-spacer"> </span><div tabindex="0" aria-label="refinement" role="tab" class="gsc-tabHeader gsc-tabhInactive gsc-inline-block">Image</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-refinementsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div><div class="gsc-resultsRoot gsc-tabData gsc-tabdInactive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>
-                        </div>
-                
-            </div><!-- /.container-fluid -->
+            <!-- Navigation content remains the same -->
         </nav>
 
-        <section>
-            <!-- Place this tag where you want the search results to render -->
-            <gcse:searchresults-only></gcse:searchresults-only>
-                </section>
-        
         <!-- Home Section -->
-        <section  name="home" id="home" style="margin-top:40px">
+        <section name="home" id="home" style="margin-top:40px">
             <div class="container">
                 <div align="left" class="col-md-3">
                     <a target="_blank" href="images/sonish.jpg">
@@ -143,139 +40,65 @@
                         <h5><i>Ph.D. Student in Intelligent Systems</i></h5>
                     </h2>
                     
-                    <h4><!--Ph.D. Student in Intelligent Systems<br>-->
+                    <h4>
                         <a target="_blank" href="https://www.isp.pitt.edu/">Intelligent Systems Program</a><br>
                         <a target="_blank" href="https://www.sci.pitt.edu/">School of Computing and Information</a><br>
                         <a target="_blank" href="https://www.pitt.edu/">University of Pittsburgh</a><br>
-                                                <!--
-                         P.O. Box 20537<br>
-                         1678 Nicosia, CYPRUS<br>-->
-                        <!-- Tel: <a href="tel:4128070563">412-807-0563</a><br> -->
-                        Email:
-                        <script language="JavaScript">
-                            // document.write("&nbsp;");
-                            // spiderjam('sonish.sivarajkumar','pitt.edu');
-                            </script>&nbsp;<a href="mailto:sonish.sivarajkumar@pitt.edu">sonish.sivarajkumar@pitt.edu</a><br>
-                        <!--
-                        Lab: <a target="_blank" href="https://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
-                        Directions: <a target="_blank" href="https://goo.gl/FQCHMl">http://goo.gl/FQCHMl</a>
-                        -->
+                        Email: <a href="mailto:sonish.sivarajkumar@pitt.edu">sonish.sivarajkumar@pitt.edu</a><br>
                     </h4>
                         <h5><i>Research Scholar</i></h5>
                     <h4>
                         <a target="_blank" href="https://hillman.upmc.com/">UPMC Hillman Cancer Center</a><br>
-                        <!--
-                         P.O. Box 20537<br>
-                         1678 Nicosia, CYPRUS<br>-->
-                        <!-- Tel: <a href="tel:4128070563">412-807-0563</a><br> -->
-                        Email:
-                        <script language="JavaScript">
-                            // document.write("&nbsp;");
-                            // spiderjam('sonish.sivarajkumar','pitt.edu');
-                            </script>&nbsp;<a href="mailto:sivarajkumars2@upmc.edu">sivarajkumars2@upmc.edu</a><br>
-                        <!--
-                        Lab: <a target="_blank" href="https://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
-                        Directions: <a target="_blank" href="https://goo.gl/FQCHMl">http://goo.gl/FQCHMl</a>
-                        -->
+                        Email: <a href="mailto:sivarajkumars2@upmc.edu">sivarajkumars2@upmc.edu</a><br>
                         <br>
-                        <a target="_blank" href="https://twitter.com/sonish_sivaraj">Twitter </a>  
-                        <a target="_blank" href="https://github.com/sonishsivarajkumar">GitHub </a> 
-                        <a target="_blank" href="https://www.linkedin.com/in/sonish-sivarajkumar-7b2b19163/"> LinkedIn</a>
-                        <a target="_blank" href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AHoSzlVeyckLTavbDzCYAnbaNc3zNUJerRyPgxwwkxAkebIGDaly9E9dyjtu0mdUxFmepWlJ7y3EvC5ufnDEF6qgcKsf&user=7bKK-AoAAAAJ">Scholar </a> 
+                        <a target="_blank" href="https://twitter.com/sonish_sivaraj">Twitter</a>  
+                        <a target="_blank" href="https://github.com/sonishsivarajkumar">GitHub</a> 
+                        <a target="_blank" href="https://www.linkedin.com/in/sonish-sivarajkumar-7b2b19163/">LinkedIn</a>
+                        <a target="_blank" href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AHoSzlVeyckLTavbDzCYAnbaNc3zNUJerRyPgxwwkxAkebIGDaly9E9dyjtu0mdUxFmepWlJ7y3EvC5ufnDEF6qgcKsf&user=7bKK-AoAAAAJ">Scholar</a> 
                     </h4>
-                    <!-- <h4><i>Expertise: Data Management in Computer Systems &amp; Networks</i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
-                     -->
                 </div>
-                
-                <i class="twittertop" style="display:none;" id="t1">
-                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
-                        <center><a class="twitter-timeline" href="https://twitter.com/sonish_sivaraj" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
-                            data-height="300">Tweets
-                            by @sonish_sivaraj</a>
-                        <script>!function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");</script></center>
-                    </div>
-                </i>
-                
-                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
-                <b class="expandshow" style="display:none;" id="tab-1">
-                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
-                </b>
-                <b class="collapseshow" style="display:none;" id="tab-1">
-                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
-                </b>
-                
             </div>
         </section>
         
-        <!-- Home Section -->
-        <!-- Home Section -->
+        <!-- Introduction Section -->
         <section name="intro" id="intro">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <!--<h2>Welcome!</h2>-->
-                    
-                    <b class="noshow" style="display:none;" id="tab-1">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-intro-content&#39;).toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
                     <div class="allshow" style="" id="tab-intro-content">
                         <hr class="star-primary">
                         
                         <p class="lead">
-                            Sonish Sivarajkumar is a Ph.D. student in&nbsp;<a target="_blank" href="https://www.isp.pitt.edu/">Intelligent Systems</a>&nbsp;at&nbsp;<a target="_blank" href="https://www.pitt.edu/">University of Pittsburgh</a>, 
-                            supervised by <a target="_blank" href="https://www.isp.pitt.edu/people/yanshan-wang">Dr. Yanshan Wang</a>.&nbsp;His research focusses on designing and validating advanced Natural Language Processing(NLP) and deep learning
-                            techniques for clinial information retrieval and extraction. His  research interests include NLP, information retrieval, information extraction
+                            Sonish Sivarajkumar is a Ph.D. student in <a target="_blank" href="https://www.isp.pitt.edu/">Intelligent Systems</a> at <a target="_blank" href="https://www.pitt.edu/">University of Pittsburgh</a>, 
+                            supervised by <a target="_blank" href="https://www.isp.pitt.edu/people/yanshan-wang">Dr. Yanshan Wang</a>. His research focuses on designing and validating advanced Natural Language Processing (NLP) and deep learning
+                            techniques for clinical information retrieval and extraction. His research interests include NLP, information retrieval, information extraction,
                             and applications of these topics for clinical discoveries and improving healthcare. He is also interested in generative AI and foundational 
-                             models that can create novel patient embeddings.
-
+                            models that can create novel patient embeddings.
                         </p>
                         <p>
-                            He is an experienced professional in the field of healthcare and pharmaceutical industry, with a focus on AI technologies. With extensive industrial experience, he has established himself as an expert in the development of AI technologies in the healthcare industry. 
-                            Before pursuing his PhD, Sonish served as a data scientist at IQVIA, in IQVIA's AI CoE, wheren he contributed to the development of AI-based solutions for various healthcare applications. Sonish has also worked as an AI research intern at 
-                            Genentech (Roche Pharmaceutical) in the gRED (Genentech Research and Early clinical Development) team, in the development of NLP techniques in drug discovery and clinical development. He had a significant stint at Merck,
-                            where he was involved in utilizing AI and NLP methods to analyze oncology providers' adherence to NCC guidelines and the quality of care for early-stage breast cancer patients. 
+                            Sonish is an experienced professional in the field of healthcare and pharmaceutical industry, with a focus on AI technologies. With extensive industrial experience, he has established himself as an expert in the development of AI technologies in the healthcare industry. 
+                            His experience includes roles at IQVIA, Genentech (Roche Pharmaceutical), and Merck, where he has contributed to various aspects of AI application in healthcare, from drug discovery to clinical development and patient care analysis.
                         </p>
 
                         <h3>Education</h3>
                         <table cellpadding="3" width="100%">
-                        <tbody><tr><td align="LEFT">&nbsp;</td><td align="LEFT">
-                            <b>(Expected) Ph.D.</b></td>
-                        <td align="LEFT">Intelligent Systems, University of Pittsburgh</td>
-                        <td align="RIGHT">2021 - Present</td>
-                        </tr>
-                        <!--
-                        <TR><TD ALIGN="LEFT">&nbsp;</TD><TD ALIGN="LEFT">&nbsp;</TD>
-                            <TD ALIGN="LEFT"><EM>Thesis: An eXtensible Retrieval Annotation Caching Engine</EM></TD>
-                            <TD ALIGN="RIGHT">&nbsp;</TD>
-                        </TR>
-                        
-                        <TR><TD ALIGN="LEFT">&nbsp;</TD><TD ALIGN="LEFT"></TD>
-                            <TD ALIGN="LEFT">&nbsp;</TD>
-                            <TD ALIGN="RIGHT">&nbsp;</TD>
-                        </TR>
-                        -->
-                        <!-- <tr><td align="LEFT">&nbsp;</td><td align="LEFT">
-                            <b>HBSc</b></td>
-                        <td align="LEFT">Computer Science, University of Toronto</td>
-                        <td align="RIGHT">09/2018 - 06/2021</td>
-                        </tr> -->
-                        <!--
-                        <TR><TD ALIGN="LEFT">&nbsp;</TD><TD ALIGN="LEFT">&nbsp;</TD>
-                            <TD ALIGN="LEFT"><EM>Thesis: An eXtensible Retrieval Annotation Caching Engine</EM></TD>
-                            <TD ALIGN="RIGHT">&nbsp;</TD>
-                        </TR>
-                        -->
-                        <tr><td align="LEFT">&nbsp;</td><td align="LEFT"></td>
+                        <tbody>
+                        <tr>
                             <td align="LEFT">&nbsp;</td>
-                            <td align="RIGHT">&nbsp;</td>
+                            <td align="LEFT"><b>(Expected) Ph.D.</b></td>
+                            <td align="LEFT">Intelligent Systems, University of Pittsburgh</td>
+                            <td align="RIGHT">2021 - Present</td>
+                        </tr>
+                        <tr>
+                            <td align="LEFT">&nbsp;</td>
+                            <td align="LEFT"><b>Master's</b></td>
+                            <td align="LEFT">Intelligent Systems, University of Pittsburgh</td>
+                            <td align="RIGHT">2021 - 2022</td>
+                        </tr>
+                        <tr>
+                            <td align="LEFT">&nbsp;</td>
+                            <td align="LEFT"><b>Bachelor's</b></td>
+                            <td align="LEFT">Electrical Engineering, APJ Abdul Kalam Technological University</td>
+                            <td align="RIGHT">2016 - 2020</td>
                         </tr>
                         </tbody></table>
                         
@@ -286,177 +109,52 @@
                 </div>
             </div>
         </section>
-        
-        <div class="twitterlow" style="display:none;" id="t1">
-            <!-- News Section -->
-            <section  name="news"  id="news">
-                <div class="container lead">
-                    <div style="text-align: left; margin-top:10px" class="col-md-12">
-                        
-                        <b class="noshow" style="display:none;" id="tab-2">
-                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                        </b>
-                        <b class="allshow" style="display:none;" id="tab-news-content">
-                            
-                            <hr class="star-primary">
-                            
-                            <h2>News</h2>
-                            <center><a class="twitter-timeline" href="https://twitter.com/sonish_sivaraj" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
-                                by @sonish_sivaraj</a>
-                            <script>!function (d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = p + "://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, "script", "twitter-wjs");
-                            </script>
-                            </center>
-                        </b>
-                    </div>
-                </div>
-            </section>
-        </div>
        
         <!-- News Section -->
         <section name="news" id="news">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-2">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-news-content&#39;).toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
                     <div class="allshow" style="" id="tab-news-content">
                     <hr class="star-primary">
                     <h2>News</h2>
-                    <li><span class="label label-success">Submission</span> Nov, 2023: <i>Fair Patient Model</i> published in JBI</li>
-                    <li><span class="label label-success">Presentation</span> Nov, 2023: <i>Mitigating Bias in Digital Twins</i> presented at Digital Health Summit</li>
-                    <li><span class="label label-warning">Submission</span> Sept, 2023: <i>Clinical Prompt Engineering</i> submitted to a Journal</li>
+                    <li><span class="label label-success">Internship</span> May, 2024: Joining Eli Lilly & Co. as NLP Research Intern</li>
+                    <li><span class="label label-success">Publication</span> April, 2024: Paper on prompting strategies for LLMs in zero-shot clinical NLP accepted in JMIR-MI</li>
+                    <li><span class="label label-success">Publication</span> March, 2024: Paper on extracting physical rehabilitation exercise information accepted in JMIR-MI</li>
+                    <li><span class="label label-success">Publication</span> February, 2024: Paper on sleep information extraction from Alzheimer's Disease patients' clinical notes accepted in JAMIA</li>
+                    <li><span class="label label-success">Publication</span> January, 2024: Paper on automating detection of treatment progression in lung cancer patients accepted in JCO</li>
+                    <li><span class="label label-success">Publication</span> Nov, 2023: "Fair Patient Model" published in JBI</li>
+                    <li><span class="label label-success">Presentation</span> Nov, 2023: "Mitigating Bias in Digital Twins" presented at Digital Health Summit</li>
                     <li><span class="label label-default">Other</span> Sept, 2023: Completed Summer internship at Merck</li>
-                    <li><span class="label label-default">Other</span> June, 2023: Joined Merck as Data Science Research Intern </li>
-                    <li><span class="label label-warning">Submission</span> May, 2023: <i>Fair Patient Model</i> submitted to  Journal of Biomedical Informatics(JBI)</li>
-                    <li><span class="label label-success">Publication </span> May, 2023: <i>Few-Shot learning for clinical NLP</i> paper published in Journal of Medical Internet Research(JMIR) AI</li>
-                    <li><span class="label label-warning">Submission</span> Feb, 2023: Submitted Counterfactual Explanations Abstract to a conference</li>
-                    <li><span class="label label-success">Publication </span> April, 2023: <i>Evaluation of HealthPrompt for Zero-shot Clinical Text Classification</i> accepted(ICHI 2023)</li>
-                    <li><span class="label label-warning">Submission</span> Feb, 2023: Submitted Clinical Information Retrieval paper to a Journal</li>
-                    <li><span class="label label-default">Organizer</span> Dec, 2023: Appointed as Publication chair of <a href="https://pittnail.github.io/EBAIC/">EBAIC-ICHI 2023</a></li>
-                    <li><span class="label label-success">Publication</span> Nov, 2022: <i>Healthprompt</i> paper presented at AMIA 2022.</li>
-                    <li><span class="label label-default">Other</span> Aug, 2022: Completed the internship at Genentech(Roche)!</li>
-                    <li><span class="label label-default">Other</span> May, 2022: Joined Genentech(Roche) as gRED AI Research Intern</li>
+                    <li><span class="label label-default">Other</span> June, 2023: Joined Merck as Data Science Research Intern</li>
+                    <li><span class="label label-success">Publication</span> May, 2023: "Few-Shot learning for clinical NLP" paper published in JMIR AI</li>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section
-        <section name="projects" id="projects">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <b class="noshow" style="display:none;" id="tab-2">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-projects-content&#39;).toggle();">Projects  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="" id="tab-projects-content">
-                    <hr class="star-primary">
-                    <h2>Current Projects <a href="https://sites.pitt.edu/~yua17/projects/projects.html" class="btn btn-primary">All Projects»</a></h2>
-                    
-                    <div align="left" class="col-md-2">
-                        <a href="https://sites.pitt.edu/~yua17/projects/pages/personalized-explanation.html">
-                        <img id="dropdown" src="./Yuya Asano_files/dropdown.png" width="170" border="0" height="170" alt=""></a>
-                    </div>
-                    <div align="left" class="col-md-10">
-                        <h3>Personalized Explanation</h3>
-                        We design randomized experiments to examine what educators should tell students in what context to improve their learning and engagement. We then apply contextual bandits to tailor students’ experience on online education systems. We embed this system in the University of Toronto’s PCRS online learning system.
-                        <div align="right"><a href="https://sites.pitt.edu/~yua17/projects/pages/personalized-explanation.html">more»</a></div>
-                    </div>
-
-                    <div align="left" class="col-md-2">
-                        <a href="https://sites.pitt.edu/~yua17/projects/pages/reflection-summarization.html">
-                        <img id="dropdown" src="./Yuya Asano_files/reflection-summary.jpg" width="170" border="0" height="120" alt=""></a>
-                    </div>
-                    <div align="left" class="col-md-10">
-                        <h3>Reflection Summarization</h3>
-                        We propose a novel way to extract actionable insights that instructors can use to improve their teahcing from a massive text data of student reflections. They can see what topics their students are talking about and how they feel about those topics through clustering of reflecitons and their summaries.
-                        <div align="right"><a href="https://sites.pitt.edu/~yua17/projects/pages/reflection-summarization.html">more»</a></div>
-                    </div>
-                </div>
-            </div>
-        </div></section> -->
-        
-        <!-- Research Section -->
+        <!-- Publications Section -->
         <section name="publications" id="publications">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-3">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-publications-content&#39;).toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
                     <div class="allshow" style="" id="tab-publications-content">
                         <hr class="star-primary">
                         
                         <h2>Selected Publications <a href="https://sites.pitt.edu/~sos86/publications/publications.html" class="btn btn-primary">All Publications»</a></h2>
                         <h4>
-                            <!--
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 25
-                            </span>&nbsp;
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://scholar.google.com/citations?user=HCxwGIkAAAAJ&hl=en"><font color=white>Citations</font></a>: 2867
-                            </span>&nbsp;
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://en.wikipedia.org/wiki/Erd&ouml;s_number"><font color="white">Erd&ouml;s #</font></a>: 3
-                            </span>&nbsp;
-                            <span class="label label-default">
-                                <a target="_blank" href="https://orcid.org/0000-0002-7239-2387"><font color="white">ORCID</font></a>
-                            </span>&nbsp;
-                            <span class="label label-default">
-                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=35176841800"><font color="white">Scopus</font></a>
-                            </span>&nbsp;
-                            <span class="label label-default">
-                                <a target="_blank" href="https://www.researcherid.com/rid/O-2301-2016"><font color="white">ResearcherID</font></a>
-                            </span>
-                            -->
                             <span class="label label-default">
                                 <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=7bKK-AoAAAAJ&view_op=list_works&sortby=pubdate"><font color="white">Google Scholar</font></a>
                             </span>&nbsp;
                             <span class="label label-default">
                                 <a target="_blank" href="https://orcid.org/0000-0003-4173-1988"><font color="white">ORCID</font></a>
                             </span>&nbsp;
-                            
-                            
                         </h4>
                         <ul>
-                            <li><span class="label label-success">Conference Paper</span> <b>Sonish Sivarajkumar</b>, Yanshan Wang(2022). 
-                                HealthPrompt: A Zero-shot Learning Paradigm for Clinical Natural Language Processing. 
-                                [<a target="_blank" href="https://sites.pitt.edu/~yua17/publications/pdf/HealthPrompt_paper.pdf">pdf</a>, 
-                                <a target="_blank" href="https://sites.pitt.edu/~yua17/publications/pdf/HealthPrompt_poster.pdf">poster</a>]
-                            </li>
-                            <li><span class="label label-success">Conference Paper</span> <b>Sonish Sivarajkumar</b>, Haneef Ahamed Mohammad, Samual Viggiano, David Oniani, Shyam Visweswaran, Yanshan Wang(2022). 
-                                Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing. 
-                                [<a target="_blank" href="https://www.medrxiv.org/content/10.1101/2022.03.29.22273078v2.full.pdf">pdf</a>]
-                            </li>
-
-                            <li><span class="label label-warning">Journal Article</span> <b>Sonish Sivarajkumar</b>, Haneef Ahamed Mohammad, David Oniani, Kirk Roberts, William Hersh, Hongfang Liu, Daqing He, Shyam Visweswaran, Yanshan Wang (2023). 
-                                <!-- <a target="_blank" href="https://doi.org/10.1145/3386527.3405924"> -->
-                                Clinical Information Retrieval: A Literature Review
-                                [<a target="_blank" href="https://www.researchsquare.com/article/rs-2748158/v1">pdf</a>]
-                            </li>  
-
-                            <li><span class="label label-warning">Journal Article</span> <b>Sonish Sivarajkumar</b>, Yufei Huang, Yanshan Wang (2023). 
-                                <!-- <a target="_blank" href="https://doi.org/10.1145/3386527.3405924"> -->
-                                Fair Patient Model: Mitigating Bias in the Patient Representation Learned from the Electronic Health Records.
-                                [<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1532046423002654">pdf</a>]
-                            </li>  
-
-                            <li><span class="label label-warning">Journal Article</span> David Oniani, Premkumar Chandrasekar, <b>Sonish Sivarajkumar</b>, Yanshan Wang (2023). 
-                                <!-- <a target="_blank" href="https://doi.org/10.1145/3386527.3405924"> -->
-                                Few-Shot Learning for Clinical Natural Language Processing Using Siamese Neural Networks. 
-                                [<a target="_blank" href="https://ai.jmir.org/2023/1/e44293">pdf</a>]
-                            </li>        
-                                    
+                            <li><span class="label label-warning">Journal Article</span> <b>Sivarajkumar S</b>, Kelley M, Samolyk-Mazzanti A, Visweswaran S, Wang Y. "An empirical evaluation of prompting strategies for large language models in zero-shot clinical natural language processing", Journal of Medical Internet Research-Medical Informatics (JMIR-MI 2024)</li>
+                            <li><span class="label label-warning">Journal Article</span> <b>Sivarajkumar S</b>, Gao F, Denny PE, Aldhahwani BM, Bove A, Visweswaran S, Wang Y. "Extracting Physical Rehabilitation Exercise Information from Clinical Notes: Algorithm Development and Validation Study", Journal of Medical Internet Research-Medical Informatics (JMIR-MI 2024)</li>
+                            <li><span class="label label-warning">Journal Article</span> <b>Sivarajkumar, S</b>, Viggiano, S, Oniani, D, Visweswaran, S, & Wang, Y. "Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing", Journal of American Medical Informatics Association (JAMIA 2024)</li>
+                            <li><span class="label label-warning">Journal Article</span> <b>Sivarajkumar, S</b>, Edupuganti, S, Bhattacharya, M, Lazris, D, Davis, M, Huang, Y, & Wang, Y, "Automating the detection of treatment progression in patients with lung cancer using large language models", Journal of Clinical Oncology (JCO 2024)</li>
+                            <li><span class="label label-warning">Journal Article</span> <b>Sivarajkumar S</b>, Huang Y, Wang Y. "Fair Patient Model: Mitigating Bias in the Patient Representation Learned from the Electronic Health Records", Journal of Biomedical Informatics (JBI 2023)</li>
                         </ul>
-                        
                     </div>
                 </div>
             </div>
@@ -466,21 +164,14 @@
         <section name="awards" id="awards">
              <div class="container lead">
                  <div style="text-align: left; margin-top:10px" class="col-md-12">
-                     
-                     <b class="noshow" style="display:none;" id="tab-6">
-                         <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-awards-content&#39;).toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                     </b>
                      <div class="allshow" style="" id="tab-awards-content">
-                         
                          <hr class="star-primary">
                          <h2>Awards and Honors</h2>
                          <ul>
-                             <li>
-                                 <span class="label label-primary">Scholarship</span> PhD Fellowship,  University of Pittsburgh, Pittsburgh, PA, USA, 2021-2023.
-                             </li>
-                             <li>
-                                 <span class="label label-default">Other</span> IQVIA Impact Awards, 2020.
-                             </li>
+                             <li><span class="label label-primary">Award</span> Merck Inspire Awards, 2023</li>
+                             <li><span class="label label-primary">Award</span> AMIA 2022 Best Paper Award Finalist, 2022</li>
+                             <li><span class="label label-primary">Scholarship</span> PhD Fellowship, University of Pittsburgh, Pittsburgh, PA, USA, 2021-2023</li>
+                             <li><span class="label label-primary">Award</span> IQVIA Impact Award, 2021</li>
                          </ul>
                      </div>
                  </div>
@@ -491,7 +182,7 @@
         <footer>
             <small>
                 <center>
-                    © 2023 | S. Sivarajkumar. Credits: AR template
+                    © 2024 | S. Sivarajkumar. Credits: AR template
                     <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
                     <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
                         <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
